@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Romanesco';
+    src: url('../font/Romanesco-Regular.ttf') format('truetype'); /* Ajusta la ruta si es necesario */
+    font-weight: normal;
+    font-style: regular;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-VariableFont_opsz,wght.ttf') format('truetype'); /* Ajusta la ruta si es necesario */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px auto;
+}
+/*Background*/
+.ds-bg-uno{background: #A3A656;}
+.ds-bg-dos{background: #384001;}   
+.ds-bg-tres{background: #F2F6F6;}   
+.ds-bg-cuatro{background: #A3A656;}
+.ds-bg-cinco{background: #ffffff}
+
+/*color*/
+.ds-color-negro{color: #000000}
+.ds-color-blanco{color: #ffffff}
+.ds-color-verde{color: #A3A656}
+.ds-inline-block :hover{color: #FFFF00}
+
+/*Height*/
+.ds-height-uno{height: 70px}
+.ds-height-dos{height: 100%}
+.ds-height-tres{height: 100px}
+.ds-height-cuatro{height: 770px}
+.ds-height-cinco{height: 97px}
+.ds-height-seis{height: 60px}
+.ds-height-siete{height: 233px}
+/*widht*/
+.ds-width-uno{width: 100%}
+.ds-width-dos{width: 500px}
+.ds-width-tres{width: 290px}
+.ds-width-cuatro{width: 200px}
+.ds-width-cinco{width: 350px}
+.ds-width-seis{width: 233px}
+/*Display*/
+.ds-flex{display: flex}
+.ds-inline-block{display: inline-block}
+.ds-flex-direction{flex-direction: column;}
+
+/*aling-items*/
+.ds-ai-center{align-items: center}
+
+/*text-align*/
+.ds-text-align-center{text-align: center}
+.ds-text-align-left{text-align: left}
+
+/*justify-content*/
+.ds-jc-space-between{justify-content: space-between}
+.ds-jc-center{justify-content: center}
+.ds-jc-space-around{justify-content: space-around}
+
+/*padding*/
+.ds-padding-uno{padding: 0px 0px 0px 70px}
+.ds-padding-dos{padding: 0px 0px}
+.ds-padding-tres{padding: 20px}
+.ds-padding-cuatro{padding: 10px}
+.ds-padding-cinco{padding: 13px 35px}
+.ds-padding-seis{padding: 20px 75px}
+.ds-padding-siete{padding: 3px 5px}
+
+.ds-padding-right-uno{padding-right: 22px}
+.ds-padding-right-dos{padding-right: 14px}
+.ds-padding-right-tres{padding-right: 90px}
+.ds-padding-right-cuatro{padding-right: 30px}
+.ds-padding-right-cinco{padding-right: 40px}
+.ds-padding-right-seis{padding-right: 70px}
+
+.ds-padding-left-uno{padding-left: 10px}
+.ds-padding-left-dos{padding-left: 18px}
+.ds-padding-left-tres{padding-left: 120px}
+.ds-padding-left-cuatro{padding-left: 75px}
+.ds-padding-left-cinco{padding-left: 0px}
+
+.ds-padding-top-uno{padding-top: 100px}
+.ds-padding-top-dos{padding-top: 15px}
+.ds-padding-top-tres{padding-top: 13px}
+.ds-padding-top-cuatro{padding-top: 30px}
+.ds-padding-top-cinco{padding-top: 5px}
+
+.ds-paddin-bottom-uno{padding-bottom: 40px}
+.ds-paddin-bottom-dos{padding-bottom: 60px}
+
+/*font-family*/
+.ds-font-uno{font-family: 'Inter'}
+.ds-font-dos{font-family: 'Romanesco'}
+
+/*style*/
+.ds-style-uno{list-style-type: none}
+
+/*text*/
+.ds-text-decoration-uno{text-decoration: none}
+.ds-text-transform-uppercase{text-transform: uppercase}
+
+/*font-size*/
+.ds-font-size-uno{font-size: 16px}
+.ds-font-size-dos{font-size: 14px}
+.ds-font-size-tres{font-size: 96px}
+.ds-font-size-cuatro{font-size: 32px}
+.ds-font-size-cinco{font-size: 16px}
+
+/*font-weight*/
+.ds-font-weight-uno{font-weight: bold}
+.ds-font-weight-dos{font-weight: 500}
+.ds-font-weight-tres{font-weight: 600}
+.ds-font-weight-cuatro{font-weight: semi-bold}
+.ds-font-weight-cinco{font-weight: regular}
+
+/*gap*/
+.ds-gap-uno{gap: 40px}
+.ds-gap-dos{gap: 10px}
+.ds-gap-tres{gap: 30px}
+.ds-gap-cuatro{gap: 134px}
+
+/*borde*/
+.ds-border-uno{border: none}
+.ds-border-dos{border-radius: 15px 15px 15px 15px}
+.ds-border-tres{border-radius: 15px 15px 0px 0px}
+.ds-border-cuatro{border-radius: 35px}
+.ds-border-cinco{border: 11px solid #384001}
+.ds-border-seis{border-radius: 50%}
+
+
+.usuario-idioma :hover {
+    color: #FFFF00;
+}
+
+/*posiciones*/
+.ds-position-uno{position: absolute}
+.ds-position-dos{top: 27%;}
+.ds-position-tres{left: 200px;}
+.ds-position-cuatro{top: 43%;}
+.ds-position-cinco{left: 190px;}
+
+/*margin*/
+.ds-margin-uno{margin: 0px auto}
+.ds-margin-dos{margin: 10px 0px}
+
+input::placeholder {
+    color: hsl(0, 0%, 80%); 
+}
+
+/*float*/
+.ds-float-left{float: left}
+.ds-float-right{float: right}
+
+/*letter*/
+.ds-letter-spacing-uno{letter-spacing: 1px}
+
+.botonpies a:hover{
+    background-color: #384001;
+}
+
+
+.botonmasaje a:hover{
+    background-color: #384001;
+}
+.botonbambu a:hover{
+    background-color: #384001;
+}
+
+.boton-gold a:hover{
+    background-color: #384001;
+}
+.boton-premium a:hover{
+    background-color: #384001;
+}
+.boton-plate a:hover{
+    background-color: #384001;
+}
+
+.tituloredes a:hover{
+    color: #FFFF00;
+}
+.idioma a:hover{
+    color: #FFFF00;
+}
+.cuenta a:hover{
+    color: #FFFF00;
+}
